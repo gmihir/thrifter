@@ -1,5 +1,5 @@
 ## thrifter
-###To run this application, follow these steps:
+### To run this application, follow these steps:
 
 1. Run the following command in the root directory
 
