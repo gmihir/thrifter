@@ -1,7 +1,19 @@
 const express = require('express');
 const path = require('path');
+var firebase = require("firebase/app");
+require("firebase/auth");
+require("firebase/firestore");
 
 const app = express();
+
+// TODO: Replace the following with your app's Firebase project configuration
+
+
+  // Initialize Firebase
+  var project = firebase.initializeApp(firebaseConfig);
+  var db = project.firestore();
+  console.log(db.collection('user'));
+
 
 // Serve the static files from the React app
 app.use(express.static(path.join(__dirname, 'frontend/build')));

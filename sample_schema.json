@@ -1,0 +1,27 @@
+{
+    "name" : "Mihir Gupta",
+    "email" : "m08.in.us@gmail.com",
+    "merchants" : ["Etsy"],
+    "products" : [
+            {
+                "id" : "ksdjfq389473290",
+                "product_name" : "My Product",
+                "price_sold" : "20",
+                "description" : "My description",
+                "original_value" : "10",
+                "inventory" : "1",
+                "image" : "s3.aws.amazon.com/ddfaskl",
+                "product_merchants" : ["Etsy"]
+            }
+        ],
+    "transactions" : [
+            {
+                "product_id": "dfaijsl234",
+                "merchants": ["Etsy","Poshmark"],
+                "net_revenue" : ["24","30"],
+                "dates" : ["1/1/20,1/2/20"],
+                "is_sale" : ["true","false"]
+            }
+
+        ]
+}
